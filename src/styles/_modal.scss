@@ -22,8 +22,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  backdrop-filter: blur(1px);
-  background-color: rgba(0, 0, 0, 0.301);
+  
+
+  
 }
 
 
@@ -37,6 +38,7 @@
     padding: 30px;
     background-image: url("public/radio.png");
     background-size: cover;
+    
     
 }
 
@@ -70,6 +72,9 @@
   position: fixed;
   animation: anim 0.7s ease-in-out forwards;
   -webkit-animation: anim 0.7s ease-in-out forwards;
+  border: 1px solid red;
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.301);
 }   
 
 @keyframes anim {
